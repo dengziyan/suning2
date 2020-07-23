@@ -1,0 +1,130 @@
+!function(window){
+    var bUtils = {
+        initFlag: false,
+        URL_CONST:{
+            IMG_HOST:{
+                PRD:'//image.suning.cn',
+                SIT:'//sit1image.suning.cn',
+                PRE:'//uimgpre.cnsuning.com',
+                XGPRE:'//uimgxgpre.cnsuning.com',
+                DEV:'https://image.suning.cn'
+            },
+            CMS_API: {
+                PRD:'//lib.suning.com',
+                SIT:'//libsit.cnsuning.com',
+                PRE:'//libpre.cnsuning.com',
+                XGPRE:'//libprexg.cnsuning.com',
+                DEV:'//lib.suning.com'
+            }
+        },
+        getJsonp:function (url,data,callback,callbackName) {
+            var dataString = url.indexOf('?') == -1? '?': '&';
+            for(var key in data){
+                dataString += key + '=' + data[key] + '&';
+            };
+
+            var cbFuncName =  callbackName ? callbackName : 'myJsonCb_' + Math.random().toString().replace('.','');
+            dataString += 'callback=' + cbFuncName;
+
+            var scriptEle = document.createElement('script');
+            scriptEle.src = url + dataString;
+
+            window[cbFuncName] = function (data) {
+                callback(data);
+                document.body.removeChild(scriptEle);
+            }
+            document.body.appendChild(scriptEle);
+        },
+        getEnv: function() {
+            var e, 
+                t = document.location.hostname, 
+                n = /(\W)*.suning.com$/, 
+                o = /(\W)*pre(.*)*.cnsuning.com$/, 
+                r = /(\W)*xgpre(.*)*.cnsuning.com$/, 
+                a = /(\W)*prexg(.*)*.cnsuning.com$/, 
+                c = /(\W)*sit(.*)*.cnsuning.com$/;
+            
+            return e = o.test(t) ? r.test(t) || a.test(t) ? "XGPRE" : "PRE" : c.test(t) ? "SIT" : n.test(t) ? "PRD" : "DEV"
+        },
+        getElementByClass: function(n) { 
+            var el = [],
+                _el = document.getElementsByTagName('*');
+            for (var i=0; i<_el.length; i++ ) {
+
+                if (_el[i].className == n ) {
+                    el[el.length] = _el[i];
+                }
+            }
+            return el;
+        },
+        getCookie : function (b) {
+            var a;
+            return (a = document.cookie.match(RegExp("(^| )" + b + "=([^;]*)(;|$)"))) ? this.stripscript(decodeURIComponent(a[2].replace(/\+/g, "%20"))): null
+        },
+        stripscript : function(s){
+            var pattern = new RegExp("[<>]")
+            var rs = "";
+            for (var i = 0; i < s.length; i++) {
+             rs = rs+s.substr(i, 1).replace(pattern, '');
+            }
+            return rs;
+        }
+    }
+
+
+    window.bottomNav = function(opts) {
+        "use strict";
+        if(bUtils.initFlagm || !opts || !opts.key){
+            return
+        }
+        bUtils.initFlag =  true
+        var key = opts.key
+
+        bUtils.getJsonp(bUtils.URL_CONST.CMS_API[bUtils.getEnv()] + '/api/jsonp/cb/wapnavigation-bottomCallback.jsonp',{},function(data) {
+            if(data && data.botton_nav && data.botton_nav.tag && data.botton_nav.tag.length > 4){
+                
+                var list = data.botton_nav.tag.slice(0,5),
+                    dom = '<div class="zj-bottom">'
+                
+                list.forEach( function(item) {
+                    dom += '<a href="'+ (key == item.productSpecialFlag ? 'javascript:;' : item.linkUrl) +'">'
+                        + '<img src="' + bUtils.URL_CONST.IMG_HOST[bUtils.getEnv()] + (key == item.productSpecialFlag ? item.picUrl : item.imgUrl) + '">'
+                        +'<p>'+ item.elementName+'</p>'
+                        +'</a>'
+                });
+
+                dom += '</div>'
+
+                var css = '<style>'
+                +'.zj-bottom{ position: fixed; display: flex; bottom: 0; left: 0; width: 100%;height: 1.96rem;background: #FFF;z-index: 100;}'
+                +'.zj-bottom a{width: 20%;}'
+                +'.zj-bottom img{display: block; width: .96rem; height: .96rem; margin: .24rem auto 0;}'
+                +'.zj-bottom p{text-align: center; font-size: .4rem; line-height: .64rem; color: #666666;}'
+                +'@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {'
+                +'.zj-bottom{height: 3.32rem;}'
+                +'}'
+                +'@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {'
+                +'.zj-bottom{height: 3.32rem;}'
+                +'}'
+                +'@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {'
+                +'.zj-bottom{height: 3.32rem;}'
+                +'}'
+                +'@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {'
+                +'.zj-bottom{height: 3.32rem;}'
+                +'}'
+                +'</style>'
+
+                var bd = document.getElementsByTagName('body')[0]
+
+                bd.insertAdjacentHTML('beforeEnd',css);
+                bd.insertAdjacentHTML('beforeEnd',dom);
+
+
+            }
+            
+        },'bottomCallback')
+
+    }
+
+
+}(window)

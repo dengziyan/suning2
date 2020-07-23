@@ -1,0 +1,247 @@
+{
+	 "banners": [ 
+	 	"./data/assets/images/159490886000769772 .jpg",
+	 	"./data/assets/images/8da72b8add514f1e8c90bb31df23a472.png",
+	 	"./data/assets/images/20200710-c2143985d04349dba09f360a2af19730755c13dbb8554ca3.jpg",
+	 	"./data/assets/images/3e151c1f02d84ba0a15667d5d8a87b3d.png",
+	 	"./data/assets/images/7deb14a4ec3c4201977e6b9251b7d3a7.png",
+	 	"./data/assets/images/1300531472b0494a8f36f3c1b118f406.png",
+	 	"./data/assets/images/159472869441800476.jpg"
+      ],
+	 "msg":[
+	 	{
+	 		"imgsrc":"./data/assets/images/158140198536389245.png",
+	 		"listname":"天天低价"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225094251284751.png",
+	 		"listname":"苏宁超市"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225098618947382.png",
+	 		"listname":"苏宁拼购"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225102941495158.png",
+	 		"listname":"5G手机"
+	 		
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225106790473382.png",
+	 		"listname":"苏宁家电"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225110605546246.png",
+	 		"listname":"天天低价"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225119197911173.png",
+	 		"listname":"苏宁超市"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225123358512204.png",
+	 		"listname":"苏宁拼购"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225129991255185.png",
+	 		"listname":"5G手机"
+
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/158225135374622745.png",
+	 		"listname":"苏宁家电"
+
+	 	}
+
+	 ],
+	 "picwalls":[
+			"./data/assets/images/1.png",
+			"./data/assets/images/2.gif",
+			"./data/assets/images/3.gif"
+	 ],
+	 "cheap":[
+		 {
+			"h4":"天天低价",
+			"p":"人气好货限时抢",
+			"img1":"./data/assets/images/cheap1.jpg",
+			"span1":"￥1.1",
+			"img2":"./data/assets/images/cheap2.jpg",
+			"span2":"￥1.3"		
+		 },
+		 {
+			"h4":"苏宁秒杀",
+			"p":"品质好货天天秒",
+			"img1":"./data/assets/images/cheap3.jpg",
+			"span1":"纤净",
+			"img2":"./data/assets/images/cheap4.jpg",
+			"span2":"溢流香"		
+		 },
+		 {
+			"h4":"百亿补贴",
+			"p":"全民省钱",
+			"img1":"./data/assets/images/cheap5.webp",
+			"span1":"补贴价",
+			"img2":"./data/assets/images/cheap6.webp",
+			"span2":"补贴价"		
+		 },
+		 {
+			"h4":"苏宁拼购",
+			"p":"2人拼更实惠 全场包邮",
+			"img1":"./data/assets/images/cheap7.jpg",
+			"span1":"2人拼13",
+			"img2":"./data/assets/images/cheap8.jpg",
+			"span2":"2人拼119"		
+		 }		
+	 ],
+	 "recRight":[
+		 {
+			 "imgsrc":"./data/assets/images/rec1.webp",
+			 "des":"苏宁国际"
+		 },
+		 {
+			"imgsrc":"./data/assets/images/rec2.webp",
+			"des":"苏宁"
+		},
+		{
+			"imgsrc":"./data/assets/images/rec3.webp",
+			"des":"新品首发"
+		},
+		{
+			"imgsrc":"./data/assets/images/rec4.png",
+			"des":"荣耀30"
+		}
+	 ],
+	 "recList":[
+	 	{
+	 		"imgsrc":"./data/assets/images/recList1.webp",
+	 		"span":"人气榜",
+	 		"h5":"饮料用品榜",
+	 		"p":"卖爆1.6万件"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/recList2.webp",
+	 		"span":"人气榜",
+	 		"h5":"儿童玩具榜",
+	 		"p":"卖爆1.6万件"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/recList3.webp",
+	 		"span":"人气榜",
+	 		"h5":"婴儿奶粉榜",
+	 		"p":"卖爆1.6万件"
+	 	}
+	 ],
+	 "popular":[
+		 {
+			"h4":"清爽畅饮啤酒榜",
+			"span":"人气榜",
+			"p":"卖爆3.2万件",
+			"img1":"./data/assets/images/popular1.webp",
+			"img2":"./data/assets/images/popular2.webp"	
+		 },
+		 {
+			"h4":"零食糕点榜",
+			"span":"人气榜",
+			"p":"卖爆7.8万件",
+			"img1":"./data/assets/images/popular3.webp",
+			"img2":"./data/assets/images/popular4.webp"	
+		 },
+		 {
+			"h4":"婴幼配方奶粉榜",
+			"span":"人气榜",
+			"p":"卖爆7.4万件",
+			"img1":"./data/assets/images/popular5.webp",
+			"img2":"./data/assets/images/popular6.webp"
+		 },
+		 {
+			"h4":"精选游泳运动榜",
+			"span":"趋势榜",
+			"p":"本周趋势上升132%",
+			"img1":"./data/assets/images/popular7.webp",
+			"img2":"./data/assets/images/popular8.webp"	
+		 }		
+	 ],
+	 "like":[
+	 	{
+	 		"imgsrc":"./data/assets/images/like1.webp",
+	 		"h5":"农夫山泉 饮用天然水塑膜量贩装550ml*12瓶 饮用水",
+	 		"span1":"自营",
+	 		"span2":"拼购",
+	 		"span3":"",
+	 		"i":"￥23.9",
+	 		"u":"92万+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like2.webp",
+	 		"h5":"美的（Midea）电磁炉 C21-Simple103 8档火力...",
+	 		"span1":"自营",
+	 		"span2":"",
+	 		"span3":"",
+	 		"i":"￥139",
+	 		"u":"8.3万+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like3.webp",
+	 		"h5":"苏泊尔(SUPOR)破壁料理机JP719A 智能预约...",
+	 		"span1":"",
+	 		"span2":"",
+	 		"span3":"448元1件",
+	 		"i":"￥458",
+	 		"u":"10万+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like4.webp",
+	 		"h5":"美的（Midea）榨汁机 LZ25Easy119一机双杯...",
+	 		"span1":"自营",
+	 		"span2":"",
+	 		"span3":"满299减30",
+	 		"i":"￥89",
+	 		"u":"3000+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like5.webp",
+	 		"h5":"飞科（FLYCO）电动剃须刀FS370 三刀头充...",
+	 		"span1":"自营",
+	 		"span2":"",
+	 		"span3":"满299减30",
+	 		"i":"￥89",
+	 		"u":"13万+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like6.webp",
+	 		"h5":"Dr.Jart+ 蒂佳婷 蓝色药丸 密集补水 面膜 5...",
+	 		"span1":"自营",
+	 		"span2":"拼购",
+	 		"span3":"",
+	 		"i":"￥58",
+	 		"u":"9400+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like7.webp",
+	 		"h5":"小熊（Bear）切碎机 QSJ-B03H2 2L大容...",
+	 		"span1":"自营",
+	 		"span2":"秒杀",
+	 		"span3":"",
+	 		"i":"￥99",
+	 		"u":"3.2万+评价"
+	 	},
+	 	{
+	 		"imgsrc":"./data/assets/images/like8.webp",
+	 		"h5":"美迪惠尔(Mediheal)水润补水保湿面膜 27...",
+	 		"span1":"自营",
+	 		"span2":"秒杀",
+	 		"span3":"",
+	 		"i":"￥55.9",
+	 		"u":"10万+评价"
+	 	}
+	 ]
+
+}

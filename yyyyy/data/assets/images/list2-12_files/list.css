@@ -1,0 +1,38 @@
+html,body{background:#fff;margin:0
+auto}.header{background:#fff;position:fixed;top:0;left:0;z-index:100}.header
+.left{width:3.6rem;height:100%;font-size: .72rem;line-height:2.16rem;text-align:center}.header
+.right{width:11.4rem;height:2.16rem}.header .right
+a{display:block;width:10.44rem;height:1.28rem;padding-left:1.32rem;background:url("/project/asnnode/asn/m/css/img/search-icon.png") .36rem .28rem/.72rem .72rem no-repeat #f7f7f7;border-radius:0.64rem;margin: .44rem auto;font-size: .56rem;line-height:1.28rem;color:#999}.content{margin:2.16rem 0 0;overflow:hidden;padding-bottom:1.96rem}.content
+.left{background:#f9f9f9;width:3.6rem;height:calc(100% - 2.16rem - 1.96rem);overflow:auto;position:fixed;left:0;top:2.16rem}.content .left ul
+li{height:2rem}.content .left ul li
+span{display:block;color:#666;padding:0
+.5rem;font-size: .56rem;line-height:2rem;text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.content .left ul
+li.on{background:#fff;position:relative}.content .left ul li.on:before, .content .left ul li.on:after{content:'';position:absolute;right:0;width: .48rem;height: .48rem}.content .left ul li.on:before{top:-.48rem;background:url("/project/asnnode/asn/m/css/img/up.png") center/100% no-repeat}.content .left ul li.on:after{bottom:-.48rem;background:url("/project/asnnode/asn/m/css/img/down.png") center/100% no-repeat}.content .left ul li.on
+span{color:#222;font-weight:bold}.content .left ul li.on span:before{content:'';position:absolute;left: .24rem;top: .82rem;width: .16rem;height: .36rem;border-radius: .16rem;background:#fc0}.content
+.right{display:none;width:calc(100% - 3.6rem);height:100%;background:#fff;margin-left:3.6rem;padding:0
+.6rem;overflow:auto}.content
+.right.pt1{padding-top:1.52rem !important}.content
+.right.pt2{padding-top:4.98rem !important}.content
+.right.pt3{padding-top:6.5rem !important}.content .right .fixed-box{position:fixed;top:2.16rem;left:3.6rem;background:#fff;z-index:100}.content .right .second-class{white-space:nowrap;overflow-y:auto;width:10.2rem;background:#fff;margin:0
+.6rem}.content .right .second-class
+li{display:inline-block;margin-right: .84rem;padding: .6rem 0 .44rem;color:#666;font-size: .48rem;line-height: .48rem}.content .right .second-class li:last-child{margin-right:0}.content .right .second-class
+li.on{color:#222;font-weight:bold;position:relative}.content .right .second-class li.on:after{content:'';position:absolute;bottom: .08rem;left:calc(50% - .18rem);width: .36rem;height: .12rem;border-radius: .06rem;background:#fc0}.content .right
+.channel{margin:0
+.6rem}.content .right .channel-banner{width:10.12rem;height:3.78rem;overflow:hidden;border-radius: .48rem;margin-top: .6rem}.content .right .channel-banner
+ul{white-space:nowrap;font-size:0;overflow:hidden}.content .right .channel-banner ul.channel-banner-box
+li{float:left;width:10.2rem;height:3.78rem;position:relative;border-radius: .48rem;overflow:hidden}.content .right .channel-banner ul.channel-banner-box li
+a{display:block;width:100%;height:100%;overflow:hidden;position:absolute;left:-1px;top:0}.content .right .channel-banner ul.channel-banner-box li
+img{display:block;width:10.16rem;height:3.78rem;border-radius: .48rem}.content .right .channel ul.channel-banner-icon{white-space:nowrap;font-size:0;text-align:center;margin: .24rem 0}.content .right .channel ul.channel-banner-icon
+li{display:inline-block;width:4px;height:3px;border-radius:1.5px;background:#ccc;margin:0
+.04rem}.content .right .channel ul.channel-banner-icon
+li.on{width:6px;background:#fc0}.content .right .second-module
+.tips{padding: .6rem 0;font-size: .48rem;line-height: .48rem}.content .right .second-module .tips .second-name{color:#000;font-weight:bold}.content .right .second-module .tips
+.hot{color:#f42;padding-right: .72rem;background:url("/project/asnnode/asn/m/css/img/right-arrow.png") right 0 top 0/.48rem .48rem no-repeat}.content .right .second-module .third-list
+li{width:2.52rem;margin:0
+1.32rem .6rem 0}.content .right .second-module .third-list li:nth-child(3n){margin-right:0}.content .right .second-module .third-list .third-img{width:2.52rem;height:2.52rem;position:relative}.content .right .second-module .third-list .third-img
+img{display:block;width:2.52rem;height:2.52rem;position:relative;background:#fff}.content .right .second-module .third-list .third-img:before{content:'';position:absolute;left:0;top:0;display:block;width:2.52rem;height:2.52rem;background:url("/project/asnnode/asn/m/css/img/logo.png") center center/1.08rem 1.08rem no-repeat #fff}.content .right .second-module .third-list .third-name{font-size: .48rem;line-height: .48rem;color:#666;text-align:center;padding: .12rem 0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.content .right .second-module.brand .third-list
+li{width:2.44rem;margin:0
+1.4rem .44rem 0}.content .right .second-module.brand .third-list li:nth-child(3n){margin-right:0}.content .right .second-module.brand .third-list .third-img{width:2.44rem;height:2.44rem}.content .right .second-module.brand .third-list .third-img
+img{width:2.44rem;height:2.44rem}.content .right .channel-btn{margin: .76rem 0 1.56rem}.content .right .channel-btn
+a{display:block;width:10.24rem;height:1.32rem;border-radius: .24rem;border:1px
+solid #ddd;font-size: .56rem;color:#222;line-height:1.32rem;text-align:center}@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.content{padding-bottom:3.32rem}}@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2){.content{padding-bottom:3.32rem}}@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3){.content{padding-bottom:3.32rem}}@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2){.content{padding-bottom:3.32rem}}
